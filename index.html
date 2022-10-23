@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title>
+    <!-- Links -->
+    <link rel="icon" href=".\favicons\favicon-16x16.png">
+    <link rel="stylesheet" href="./css/index.css">
+
+    <!-- JAVAscript -->
+    <script defer src="./js/index.js"></script>
+    <!--o parametro defer é usadp para esse link ser carregado depois de todo o html/css carregar, mas se colocar no final do codigo o efeito é o mesmo-->
+
+    <!-- Se não existir o caminho do link do href, se clicar usando a tecla control, o vscode cria o arquivo e a pasta para vc-->
+</head>
+<body>
+
+    <main>
+        <img src="#" class="pokemon-img">
+
+        <h1 class="pokemon_data">
+            <span class="numero_pokemon"></span>
+            <span class="nome_pokemon"></span>
+        </h1>
+        <form class="form">
+            <input type="search" class="input_procurar" placeholder="Numero ou nome" required>
+        </form>
+        <div class="botoes">
+
+            <button class="botao btn-prev">prev&lt;</button>
+            <button class="botao btn-next">next&gt;</button><!--Para pegar esses codigos de caracteres expeciais, pois não é uma boa pratica usar eles em sí, o nome é HTML entities-->
+        </div>
+       
+        <img src="images\pokedex.png" alt="png" class="pokedex">
+
+       
+    </main>
+
+
+
+     <!--https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/25.svg-->
+
+</body>
+</html>
